@@ -1,1 +1,0 @@
-# infomentor-school-week-ClaudeCowork
