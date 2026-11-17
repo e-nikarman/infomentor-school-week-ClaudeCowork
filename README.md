@@ -14,6 +14,84 @@ It works with **Outlook.com** or **Gmail + Google Calendar**.
 
 ---
 
+## What you get each week
+
+Each run covers the **two school weeks starting next Monday**. You get four things: the children's schedules, an email for the parents, an email for the kids, and calendar blockers.
+
+### 1. The children's schedules
+
+- Claude reads each child's schedule in InfoMentor (**Schema**) and switches between your children in InfoMentor's user menu.
+- Every lesson goes into that child's own calendar, plus breaks, transitions and lunch if you chose to include short slots. Each event has the title and time only, with no location and no notifications, so the kids' phones don't buzz all day.
+- Before adding anything, Claude checks that the period is empty in that calendar, so running it twice doesn't create duplicates.
+- Afterwards, Claude checks that the number of events per day matches InfoMentor.
+- Days with no lessons, such as a staff planning day (studiedag) or a school break (lov), are mentioned in the summary so you know why they're empty.
+- If your children are in different classes or have different subjects (for example music on different days), each child gets their own correct schedule.
+
+### 2. The parents' email
+
+Sent from **your own** Outlook or Gmail to the partner you named during setup. If you chose "draft first", Claude shows it to you and waits for your OK before sending.
+
+**Subject:** `School highlights, week of <dates>`
+
+It's short and factual, with these sections:
+
+| Section | What's in it |
+|---|---|
+| **To do** | Everything you need to act on, deadlines first and in bold. For example registering for holiday fritids, forms to sign, or things to bring. |
+| **This week** | Events that affect you or the kids: parents' evenings, meetings, theme days, staff planning days, early closing. |
+| **Homework** | What each subject has assigned, with any links the teachers shared. |
+| **Coming up** | Important dates further ahead, so nothing comes as a surprise. |
+| **FYI** | Staff changes, new routines, things the school asks parents to help with at home. |
+
+Example:
+
+> **To do**
+> - **Register Christmas break fritids in InfoMentor → Fritidsschema, deadline Mon 23 Nov.** Register days off too.
+>
+> **This week**
+> - Wed 18 Nov, 16:30–18:30: Parents' evening at the school. Class meeting at 16:45.
+
+### 3. The kids' email
+
+One shared email to all your children who have an email address, written in the language you chose (English by default, so they practise). It's warm, simple and has a few emojis, and it's signed the way you chose (for example "Love, Pappa").
+
+**Subject:** `Your school week, <dates> 🌟`
+
+| Section | What's in it |
+|---|---|
+| **At fritids** | What's happening day by day. |
+| **Just for you** | Anything that only applies to one child, with that child tagged by name, for example **@Anna**: different subject days, things to bring, or an individual task. Things that apply to all of them are marked "All of you". |
+| **Homework** | Explained in kid language. |
+| **In class** | What they're learning right now. |
+| **Get ready for** | Fun things coming up, like theme days or performances. |
+| **Challenge for the week** | A small goal tied to something the school asked parents to encourage, such as table manners or reading. |
+
+Admin details and staff matters are left out of the kids' email.
+
+Example:
+
+> **Just for you**
+> - **@Anna:** you have Music on Thursday and Sloyd on Friday. Remember your things for sloyd!
+> - **@Leo and @Maja:** you have Music on Tuesday.
+
+### 4. Calendar blockers
+
+Claude adds blockers to **your** calendar and sends them as calendar invitations to your partner, and to your work email if you gave one. That way they also show in a work calendar, which many parents look at more often. Blockers are always shown as **Free**, so they never block your working time or make you look busy. Claude never adds the same blocker twice, even when you run the routine again.
+
+**Deadlines** (registrations, forms, sign-ups)
+- **One all-day event, two days before the deadline.** For example, a deadline on Monday 23 Nov gets a blocker on Saturday 21 Nov.
+- Title like: `⚠️ Register Christmas break fritids in InfoMentor (deadline Mon 23 Nov)`
+- The description says exactly what to do and where (for example InfoMentor → Fritidsschema), plus the key details from the school's post.
+- A reminder pops up the afternoon before.
+
+**Important events** (on the day itself)
+- **Events with a time**, such as parents' evenings, parents' council meetings, drop-in mornings and end-of-term ceremonies: added with the real start and end time, the place, and the programme in the description. If there's a class meeting, the classroom is included when it's known. You get a reminder the day before.
+- **Days without a time**, such as theme days, staff planning days and school breaks: added as all-day events. A school break spans the whole break.
+- **Events that concern the children** (theme days, closures) are also added to the kids' calendars, so they see them too.
+- Events that have already passed are skipped.
+
+---
+
 ## What you need
 
 | | |
